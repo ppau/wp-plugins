@@ -10,7 +10,7 @@ License: CC0
 */
 function ppau_download_shortcode($attrs, $content = null) {
     extract(shortcode_atts(array(
-        'href' => null,
+        'href' => null
     ), $attrs));
 
     $out = "<div class='download'>";
